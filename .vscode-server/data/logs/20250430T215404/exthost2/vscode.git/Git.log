@@ -1,0 +1,60 @@
+2025-04-30 21:54:30.620 [info] [main] Log level: Info
+2025-04-30 21:54:30.620 [info] [main] Validating found git in: "git"
+2025-04-30 21:54:30.620 [info] [main] Using git "2.34.1" from "git"
+2025-04-30 21:54:30.621 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-30 21:54:30.621 [info] > git rev-parse --show-toplevel [66ms]
+2025-04-30 21:54:30.621 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:54:30.631 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-30 21:54:30.632 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:54:30.638 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-30 21:54:30.638 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:54:30.648 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-30 21:54:30.648 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:54:30.654 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-30 21:54:30.654 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:54:30.660 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-30 21:54:30.660 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:54:30.691 [info] > git rev-parse --show-toplevel [18ms]
+2025-04-30 21:54:31.134 [info] > git rev-parse --git-dir --git-common-dir [30ms]
+2025-04-30 21:54:31.148 [info] [Model][openRepository] Opened repository: /home/ks/.nvm
+2025-04-30 21:54:31.589 [info] > git rev-parse --show-toplevel [71ms]
+2025-04-30 21:54:31.589 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:54:31.590 [info] > git config --get commit.template [76ms]
+2025-04-30 21:54:31.642 [info] > git rev-parse --show-toplevel [45ms]
+2025-04-30 21:54:31.642 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:54:31.663 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [42ms]
+2025-04-30 21:54:31.691 [info] > git status -z -uall [19ms]
+2025-04-30 21:54:31.692 [info] > git rev-parse --show-toplevel [41ms]
+2025-04-30 21:54:31.692 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:54:31.708 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [30ms]
+2025-04-30 21:54:31.746 [info] > git rev-parse --show-toplevel [45ms]
+2025-04-30 21:54:31.746 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:54:31.753 [info] > git config --get commit.template [7ms]
+2025-04-30 21:54:31.754 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-30 21:54:31.754 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:54:31.763 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [5ms]
+2025-04-30 21:54:31.774 [info] > git status -z -uall [7ms]
+2025-04-30 21:54:31.776 [info] > git rev-parse --show-toplevel [14ms]
+2025-04-30 21:54:31.776 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:54:31.786 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2025-04-30 21:54:31.797 [info] > git rev-parse --show-toplevel [12ms]
+2025-04-30 21:54:31.797 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:54:31.916 [info] > git rev-parse --show-toplevel [113ms]
+2025-04-30 21:54:31.916 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:54:31.918 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-30 21:54:31.939 [info] > git config --get commit.template [13ms]
+2025-04-30 21:54:31.946 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [1ms]
+2025-04-30 21:54:31.957 [info] > git status -z -uall [7ms]
+2025-04-30 21:54:31.958 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-30 21:54:32.031 [info] > git check-ignore -v -z --stdin [4ms]
+2025-04-30 21:54:32.586 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-30 21:54:33.188 [info] > git diff --name-status -z --diff-filter=ADMR 977563e97ddc66facf3a8e31c6cff01d236f09bd [1ms]
+2025-04-30 21:54:33.189 [info] fatal: bad object 977563e97ddc66facf3a8e31c6cff01d236f09bd
+2025-04-30 21:54:33.195 [info] > git diff --name-status -z --diff-filter=ADMR @{upstream} [2ms]
+2025-04-30 21:54:33.195 [info] fatal: HEAD does not point to a branch
+2025-04-30 21:56:30.425 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-30 21:56:30.426 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:59:02.986 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-30 21:59:02.986 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-30 21:59:29.719 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-30 21:59:29.719 [info] fatal: not a git repository (or any of the parent directories): .git

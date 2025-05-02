@@ -1,0 +1,12 @@
+2025-03-23 22:11:33.863 [info] Extension host with pid 1582 started
+2025-03-23 22:11:34.500 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-23 22:11:34.596 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-23 22:11:34.597 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-23 22:11:35.274 [info] Eager extensions activated
+2025-03-23 22:11:35.275 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-23 22:11:35.276 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-23 22:11:35.277 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2025-03-23 22:11:35.278 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-03-23 22:12:53.421 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-03-23 22:20:38.246 [info] Extension host terminating: received terminate message from renderer
+2025-03-23 22:20:38.640 [info] Extension host with pid 1582 exiting with code 0

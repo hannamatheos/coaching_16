@@ -1,0 +1,25 @@
+2025-04-05 10:49:17.297 [info] 
+
+
+
+
+2025-04-05 10:49:17.324 [info] Extension host agent started.
+2025-04-05 10:49:17.802 [info] [127.0.0.1][0350c802][ManagementConnection] New connection established.
+2025-04-05 10:49:18.133 [info] [127.0.0.1][8ba46bdb][ExtensionHostConnection] New connection established.
+2025-04-05 10:49:18.469 [info] [127.0.0.1][8ba46bdb][ExtensionHostConnection] <2908> Launched Extension Host Process.
+2025-04-05 10:49:19.599 [info] Getting Manifest... github.copilot
+2025-04-05 10:49:19.600 [info] Getting Manifest... github.copilot-chat
+2025-04-05 10:49:20.035 [info] Installing extension: github.copilot {"installPreReleaseVersion":false,"donotIncludePackAndDependencies":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ks/.vscode-server/extensions/extensions.json","external":"file:///home/ks/.vscode-server/extensions/extensions.json","path":"/home/ks/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.0","date":"2025-04-02T21:35:19.530Z"}}
+2025-04-05 10:49:20.038 [info] Installing the extension without checking dependencies and pack github.copilot
+2025-04-05 10:49:20.062 [info] Installing extension: github.copilot-chat {"installPreReleaseVersion":false,"donotIncludePackAndDependencies":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ks/.vscode-server/extensions/extensions.json","external":"file:///home/ks/.vscode-server/extensions/extensions.json","path":"/home/ks/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.0","date":"2025-04-02T21:35:19.530Z"}}
+2025-04-05 10:49:20.063 [info] Installing the extension without checking dependencies and pack github.copilot-chat
+2025-04-05 10:49:23.060 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 1599ms.
+2025-04-05 10:49:23.350 [info] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 1564ms.
+2025-04-05 10:49:23.855 [info] Extracted extension to file:///home/ks/.vscode-server/extensions/github.copilot-chat-0.26.0: github.copilot-chat
+2025-04-05 10:49:23.868 [info] Renamed to /home/ks/.vscode-server/extensions/github.copilot-chat-0.26.0
+2025-04-05 10:49:23.888 [info] Extension installed successfully: github.copilot-chat file:///home/ks/.vscode-server/extensions/extensions.json
+2025-04-05 10:49:24.468 [info] Extracted extension to file:///home/ks/.vscode-server/extensions/github.copilot-1.296.0: github.copilot
+2025-04-05 10:49:24.480 [info] Renamed to /home/ks/.vscode-server/extensions/github.copilot-1.296.0
+2025-04-05 10:49:24.496 [info] Extension installed successfully: github.copilot file:///home/ks/.vscode-server/extensions/extensions.json
+2025-04-05 12:28:45.956 [info] [127.0.0.1][0350c802][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-05 12:28:46.315 [info] [127.0.0.1][8ba46bdb][ExtensionHostConnection] <2908> Extension Host Process exited with code: 0, signal: null.

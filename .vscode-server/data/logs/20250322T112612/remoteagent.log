@@ -1,0 +1,25 @@
+2025-03-22 11:26:12.924 [info] 
+
+
+
+
+2025-03-22 11:26:12.924 [info] Extension host agent started.
+2025-03-22 11:26:12.948 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ks/.vscode-server/extensions
+2025-03-22 11:26:12.968 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ks/.vscode-server/extensions
+2025-03-22 11:26:13.302 [info] [127.0.0.1][6d4bad7c][ManagementConnection] New connection established.
+2025-03-22 11:26:13.656 [info] [127.0.0.1][5e8d81df][ExtensionHostConnection] New connection established.
+2025-03-22 11:26:14.149 [info] [127.0.0.1][5e8d81df][ExtensionHostConnection] <4399> Launched Extension Host Process.
+2025-03-22 11:58:28.592 [info] Getting Manifest... esbenp.prettier-vscode
+2025-03-22 11:58:28.659 [info] Installing extension: esbenp.prettier-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ks/.vscode-server/extensions/extensions.json","external":"file:///home/ks/.vscode-server/extensions/extensions.json","path":"/home/ks/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"}}
+2025-03-22 11:58:31.091 [info] Extension signature verification result for esbenp.prettier-vscode: Success. Internal Code: 0. Executed: true. Duration: 1837ms.
+2025-03-22 11:58:31.373 [info] Extracted extension to file:///home/ks/.vscode-server/extensions/esbenp.prettier-vscode-11.0.0: esbenp.prettier-vscode
+2025-03-22 11:58:31.385 [info] Renamed to /home/ks/.vscode-server/extensions/esbenp.prettier-vscode-11.0.0
+2025-03-22 11:58:31.401 [info] Extension installed successfully: esbenp.prettier-vscode file:///home/ks/.vscode-server/extensions/extensions.json
+2025-03-22 11:58:47.295 [info] Getting Manifest... dbaeumer.vscode-eslint
+2025-03-22 11:58:47.324 [info] Installing extension: dbaeumer.vscode-eslint {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ks/.vscode-server/extensions/extensions.json","external":"file:///home/ks/.vscode-server/extensions/extensions.json","path":"/home/ks/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"}}
+2025-03-22 11:58:48.995 [info] Extension signature verification result for dbaeumer.vscode-eslint: Success. Internal Code: 0. Executed: true. Duration: 1281ms.
+2025-03-22 11:58:49.034 [info] Extracted extension to file:///home/ks/.vscode-server/extensions/dbaeumer.vscode-eslint-3.0.10: dbaeumer.vscode-eslint
+2025-03-22 11:58:49.041 [info] Renamed to /home/ks/.vscode-server/extensions/dbaeumer.vscode-eslint-3.0.10
+2025-03-22 11:58:49.052 [info] Extension installed successfully: dbaeumer.vscode-eslint file:///home/ks/.vscode-server/extensions/extensions.json
+2025-03-22 12:02:12.739 [info] [127.0.0.1][6d4bad7c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-22 12:02:12.964 [info] [127.0.0.1][5e8d81df][ExtensionHostConnection] <4399> Extension Host Process exited with code: 0, signal: null.

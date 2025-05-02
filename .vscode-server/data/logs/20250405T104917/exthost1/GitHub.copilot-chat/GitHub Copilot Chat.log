@@ -1,0 +1,20 @@
+2025-04-05 10:49:25.843 [info] Can't use the Electron fetcher in this environment.
+2025-04-05 10:49:25.843 [info] Using the Node fetch fetcher.
+2025-04-05 10:49:25.843 [info] Initializing Git extension service.
+2025-04-05 10:49:25.843 [info] Successfully activated the vscode.git extension.
+2025-04-05 10:49:25.843 [info] Enablement state of the vscode.git extension: true.
+2025-04-05 10:49:25.843 [info] Successfully registered Git commit message provider.
+2025-04-05 10:49:26.965 [info] Logged in as simks77
+2025-04-05 10:49:27.988 [info] Got Copilot token for simks77
+2025-04-05 10:49:28.756 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-05 10:49:28.756 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-05 10:49:28.774 [info] Registering default platform agent...
+2025-04-05 10:49:29.528 [info] Fetched model metadata in 1526ms 2157fe0b-73eb-49f8-bab3-c2ac4164d2df
+2025-04-05 10:49:29.766 [info] activationBlocker from 'languageModelAccess' took for 3059ms
+2025-04-05 11:21:41.124 [info] Logged in as simks77
+2025-04-05 11:21:42.362 [info] Got Copilot token for simks77
+2025-04-05 11:21:42.986 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-05 11:21:43.677 [info] Fetched model metadata in 1290ms 072c9089-7293-4da9-99f6-aa1053b008df
+2025-04-05 12:09:00.051 [info] Logged in as simks77
+2025-04-05 12:09:01.000 [info] Got Copilot token for simks77
+2025-04-05 12:21:00.022 [info] copilot token chat_enabled: true, sku: free_limited_copilot

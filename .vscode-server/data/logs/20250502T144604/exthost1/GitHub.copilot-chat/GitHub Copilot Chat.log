@@ -1,0 +1,25 @@
+2025-05-02 14:46:08.569 [info] Can't use the Electron fetcher in this environment.
+2025-05-02 14:46:08.569 [info] Using the Node fetch fetcher.
+2025-05-02 14:46:08.570 [info] Initializing Git extension service.
+2025-05-02 14:46:08.570 [info] Successfully activated the vscode.git extension.
+2025-05-02 14:46:08.570 [info] Enablement state of the vscode.git extension: true.
+2025-05-02 14:46:08.570 [info] Successfully registered Git commit message provider.
+2025-05-02 14:46:10.676 [info] Logged in as simks77
+2025-05-02 14:46:11.890 [info] Got Copilot token for simks77
+2025-05-02 14:46:12.737 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-02 14:46:12.737 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-05-02 14:46:12.756 [info] Registering default platform agent...
+2025-05-02 14:46:13.553 [info] Fetched model metadata in 1639ms 19cd22c0-8323-4a31-8d92-da1d6b72c13c
+2025-05-02 14:46:13.760 [info] activationBlocker from 'languageModelAccess' took for 4436ms
+2025-05-02 15:02:39.904 [info] Fetched model metadata in 1078ms dfba6db8-0c56-4f09-9baf-18c845198715
+2025-05-02 15:02:42.003 [info] message 0 returned. finish reason: [stop]
+2025-05-02 15:02:42.006 [info] request done: requestId: [634a0fe7-604b-4c6d-a04e-b5e64db7ddd6] model deployment ID: []
+2025-05-02 15:17:05.489 [info] Logged in as simks77
+2025-05-02 15:17:06.391 [info] Got Copilot token for simks77
+2025-05-02 15:17:06.716 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-02 15:50:53.851 [info] Logged in as simks77
+2025-05-02 15:50:54.706 [info] Got Copilot token for simks77
+2025-05-02 15:50:55.018 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-02 15:57:26.892 [info] Fetched model metadata in 1033ms b3f29259-904c-43e2-9561-a8857781b1fd
+2025-05-02 15:57:29.155 [info] message 0 returned. finish reason: [stop]
+2025-05-02 15:57:29.791 [info] request done: requestId: [cb8e5916-19a5-4f93-b61e-bf80b050d80d] model deployment ID: []

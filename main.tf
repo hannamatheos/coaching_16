@@ -20,8 +20,8 @@ resource "aws_iam_role" "lambda_exec_role" {
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
     Statement = [{
-      Action    = "sts:AssumeRole"
-      Effect    = "Allow"
+      Action = "sts:AssumeRole"
+      Effect = "Allow"
       Principal = {
         Service = "lambda.amazonaws.com"
       }
@@ -87,18 +87,18 @@ resource "aws_apigatewayv2_api" "url_api" {
 }
 
 resource "aws_apigatewayv2_integration" "create_url_integration" {
-  api_id           = aws_apigatewayv2_api.url_api.id
-  integration_type = "AWS_PROXY"
-  integration_uri  = aws_lambda_function.create_url.invoke_arn
-  integration_method = "POST"
+  api_id                 = aws_apigatewayv2_api.url_api.id
+  integration_type       = "AWS_PROXY"
+  integration_uri        = aws_lambda_function.create_url.invoke_arn
+  integration_method     = "POST"
   payload_format_version = "2.0"
 }
 
 resource "aws_apigatewayv2_integration" "retrieve_url_integration" {
-  api_id           = aws_apigatewayv2_api.url_api.id
-  integration_type = "AWS_PROXY"
-  integration_uri  = aws_lambda_function.retrieve_url.invoke_arn
-  integration_method = "GET"
+  api_id                 = aws_apigatewayv2_api.url_api.id
+  integration_type       = "AWS_PROXY"
+  integration_uri        = aws_lambda_function.retrieve_url.invoke_arn
+  integration_method     = "GET"
   payload_format_version = "2.0"
 }
 

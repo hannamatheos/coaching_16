@@ -1,4 +1,4 @@
-#Terraform script to build serverless URL shortener architecture test
+#Terraform script to build serverless URL shortener architecture
 
 provider "aws" {
   region = "ap-southeast-1"

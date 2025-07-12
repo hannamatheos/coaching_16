@@ -9,9 +9,6 @@ terraform {
   }
 }
 
-provider "aws" {
-  region = "us-east-1"
-}
 
 resource "aws_wafv2_web_acl" "coaching16" {
   name        = "coaching16_waf"

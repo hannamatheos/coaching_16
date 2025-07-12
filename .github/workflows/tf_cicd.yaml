@@ -52,7 +52,4 @@ jobs:
       - name: Terraform Apply
         run: terraform apply
         working-directory: ./ #This ensures it runs in the root
-<<<<<<< HEAD
-=======
 
->>>>>>> 52eee62 (Update tf_cicd.yaml)

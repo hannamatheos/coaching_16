@@ -52,4 +52,7 @@ jobs:
       - name: Terraform Apply
         run: terraform apply
         working-directory: ./ #This ensures it runs in the root
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5b518b4 (update main.tf and workflows)

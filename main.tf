@@ -4,6 +4,16 @@ provider "aws" {
   region = "ap-southeast-1"
 }
 
+terraform {
+  required_version = ">= 1.0.0"
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+}
+
 # IAM role for Lambda
 resource "aws_iam_role" "lambda_exec_role" {
   name = "lambda_exec_role"

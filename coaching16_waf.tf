@@ -9,7 +9,7 @@ terraform {
   }
 }
 
-
+#Kris check
 resource "aws_wafv2_web_acl" "coaching16" {
   name        = "coaching16_waf"
   scope       = "REGIONAL"

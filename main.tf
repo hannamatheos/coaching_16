@@ -48,12 +48,12 @@ resource "aws_dynamodb_table" "url_table" {
 
 # Lambda: Create URL
 resource "aws_lambda_function" "create_url" {
-  filename         = "create_url.zip"
+  filename         = "${path.module}/dist/create_url.zip" # Corrected path
   function_name    = "create_url"
   role             = aws_iam_role.lambda_exec_role.arn
   handler          = "index.handler"
   runtime          = "nodejs18.x"
-  source_code_hash = filebase64sha256("create_url.zip")
+  source_code_hash = filebase64sha256("${path.module}/dist/create_url.zip")
   timeout          = 10
 
   environment {
@@ -65,12 +65,12 @@ resource "aws_lambda_function" "create_url" {
 
 # Lambda: Retrieve URL
 resource "aws_lambda_function" "retrieve_url" {
-  filename         = "retrieve_url.zip"
+  filename         = "${path.module}/dist/retrieve_url.zip" # Corrected path
   function_name    = "retrieve_url"
   role             = aws_iam_role.lambda_exec_role.arn
   handler          = "index.handler"
   runtime          = "nodejs18.x"
-  source_code_hash = filebase64sha256("retrieve_url.zip")
+  source_code_hash = filebase64sha256("${path.module}/dist/retrieve_url.zip") # Corrected path
   timeout          = 10
 
   environment {

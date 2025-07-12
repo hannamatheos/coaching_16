@@ -50,5 +50,6 @@ jobs:
         working-directory: ./ #This ensures it runs in the root
 
       - name: Terraform Apply
-        run: terraform apply
+        run: terraform apply --auto-approve
         working-directory: ./ #This ensures it runs in the root
+

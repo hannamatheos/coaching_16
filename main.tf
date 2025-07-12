@@ -1,8 +1,8 @@
 #Terraform script to build serverless URL shortener architecture
 
-provider "aws" {
-  region = "ap-southeast-1"
-}
+# provider "aws" {
+#   region = "ap-southeast-1"
+# }
 
 terraform {
   required_version = ">= 1.0.0"
